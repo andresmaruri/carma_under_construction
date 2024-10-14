@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('images/image.jpg') no-repeat center center fixed; /* Imagen de fondo */
+    background: url('image.jpg') no-repeat center center fixed; /* Imagen de fondo */
     background-size: cover; /* Hace que la imagen cubra toda la pantalla */
     color: white; /* Texto blanco */
     font-family: 'PP Neu Machina', sans-serif;
