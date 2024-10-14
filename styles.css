@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh; /* Altura de la ventana del navegador */
-    background: url('background.jpg') no-repeat center center fixed; /* Imagen de fondo */
+    background: url('image.jpg') no-repeat center center fixed; /* Imagen de fondo */
     background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
 }
 
