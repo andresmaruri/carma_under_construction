@@ -1,27 +1,38 @@
+/* Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body, html {
-    height: 100%;
+body {
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #000; /* Fondo negro */
+    color: white; /* Letras blancas */
+    font-family: 'PP Neu Machina', sans-serif; /* Tipografía que mencionaste */
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
-.photo {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+h1 {
+    font-size: 5rem; /* Tamaño grande para CARMA */
+    letter-spacing: 2px;
+}
+
+.small-text {
+    font-size: 1.5rem; /* Tamaño pequeño para "Creative" */
+    display: block;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    font-family: sans-serif; /* Puedes cambiarlo si prefieres la misma tipografía */
 }
