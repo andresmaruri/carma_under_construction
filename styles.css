@@ -10,22 +10,26 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000; /* Fondo negro */
-    color: white; /* Letras blancas */
-    font-family: 'PP Neu Machina', sans-serif; /* Tipografía que mencionaste */
-}
-
-.container {
+    background: url('images/background.jpg') no-repeat center center fixed; /* Imagen de fondo */
+    background-size: cover; /* Hace que la imagen cubra toda la pantalla */
+    color: white; /* Texto blanco */
+    font-family: 'PP Neu Machina', sans-serif;
     text-align: center;
 }
 
+.container {
+    background: rgba(0, 0, 0, 0.5); /* Filtro negro con transparencia */
+    padding: 20px;
+    border-radius: 10px;
+}
+
 h1 {
-    font-size: 5rem; /* Tamaño grande para CARMA */
+    font-size: 5rem;
     letter-spacing: 2px;
 }
 
 .small-text {
-    font-size: 1.5rem; /* Tamaño pequeño para "Creative" */
+    font-size: 1.5rem;
     display: block;
     margin-top: 10px;
 }
@@ -34,5 +38,5 @@ p {
     font-size: 1.2rem;
     margin-top: 20px;
     letter-spacing: 1px;
-    font-family: sans-serif; /* Puedes cambiarlo si prefieres la misma tipografía */
+    font-family: sans-serif;
 }
